@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import './App.css';
 
+const data = require('mockData.json')
+
 function App() {
   return (
     <div className="App">

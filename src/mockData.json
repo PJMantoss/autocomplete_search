@@ -1,4 +1,4 @@
-const data = [
+[
     { "full_name": "Farrel Hoggin" },
     { "full_name": "Irma Olech" },
     { "full_name": "Emmit Gallacher" },
@@ -1001,4 +1001,3 @@ const data = [
     { "full_name": "Fremont Gotthard.sf" }
   ]
   
-  export default data;

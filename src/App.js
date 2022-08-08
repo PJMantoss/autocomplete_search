@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import './App.css';
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
         <div className="searchInner">
           <input 
             type="text" 
+            value={value}
+            onChange={handleChange}
           />
         </div>
       </div>

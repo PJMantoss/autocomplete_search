@@ -6,7 +6,9 @@ function App() {
       <h1>Search</h1>
       <div className="searchContainer">
         <div className="searchInner">
-          <input type="" />
+          <input 
+            type="text" 
+          />
         </div>
       </div>
     </div>

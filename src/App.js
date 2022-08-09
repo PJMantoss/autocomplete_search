@@ -11,6 +11,7 @@ function App() {
   };
 
   const handleClick = search => {
+    setValue(search);
     console.log('search ', search);
   };
 

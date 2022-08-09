@@ -40,10 +40,6 @@ input {
   background: rgb(241, 240, 240);
 }
 
-input:focus {
-  border: 0;
-}
-
 .searchInner > button {
   border: 0;
   border-radius: 5px;

@@ -39,6 +39,7 @@ function App() {
             })
             .map(d => (
             <div 
+              key={d.full_name}
               onClick={() => handleClick(d.full_name)} 
               className="dropdownRow"
             >

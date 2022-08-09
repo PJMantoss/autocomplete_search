@@ -18,6 +18,7 @@ function App() {
   return (
     <div className="App">
       <h1>Search</h1>
+      <p>With Autocomplete and Filter Features</p>
       <div className="searchContainer">
         <div className="searchInner">
           <input 

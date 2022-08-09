@@ -10,7 +10,9 @@ function App() {
     setValue(e.target.value)
   };
 
-  const handleClick = search => {};
+  const handleClick = search => {
+    console.log('search ', search)
+  };
 
   return (
     <div className="App">

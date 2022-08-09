@@ -49,8 +49,8 @@ input {
 }
 
 .searchInner > button:hover{
-  background: rgb(42, 42, 119);
-  color: white;
+  background: white;
+  color: rgb(42, 42, 119);
 }
 
 @media only screen and (max-width: 600px){

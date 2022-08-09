@@ -22,7 +22,7 @@ function App() {
             value={value}
             onChange={handleChange}
           />
-          <button onClick={handleClick}></button>
+          <button onClick={handleClick}>Search</button>
         </div>
       </div>
     </div>

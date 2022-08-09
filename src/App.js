@@ -6,7 +6,9 @@ const data = require('./mockData.json')
 function App() {
   const [value, setValue] = useState('');
 
-  const handleChange = () => {};
+  const handleChange = e => {
+    setValue(e.target.value)
+  };
 
   return (
     <div className="App">

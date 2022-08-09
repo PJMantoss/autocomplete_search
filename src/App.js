@@ -22,7 +22,7 @@ function App() {
             value={value}
             onChange={handleChange}
           />
-          <button onClick={handleClick}>Search</button>
+          <button onClick={() => handleClick(value)}>Search</button>
         </div>
       </div>
     </div>

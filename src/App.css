@@ -36,3 +36,9 @@ input {
 .searchInner {
   display: flex;
 }
+
+@media only screen and (max-width: 600px){
+  .searchInner {
+    flex-direction: column;
+  }
+}

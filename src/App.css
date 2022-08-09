@@ -32,6 +32,8 @@
 input {
   width: 220px;
   border-radius: 5px;
+  border: 0;
+  background: silver;
 }
 
 .searchInner {

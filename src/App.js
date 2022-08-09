@@ -29,7 +29,7 @@ function App() {
         <div className="dropdown">
           {data.filter(term => {
             const searchTerm = value.toLowerCase();
-            const fullName = term.fullName.toLowerCase();
+            const fullName = term.full_name.toLowerCase();
 
             return searchTerm && 
                   fullName.startsWith(searchTerm) &&

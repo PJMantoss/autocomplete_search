@@ -28,7 +28,7 @@ function App() {
         </div>
         <div className="dropdown">
           {data.map(d => (
-            <div className="dropdown"></div>
+            <div className="dropdownRow"></div>
           ))}
         </div>
       </div>

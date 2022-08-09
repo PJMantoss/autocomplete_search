@@ -27,7 +27,9 @@ function App() {
           <button onClick={() => handleClick(value)}>Search</button>
         </div>
         <div className="dropdown">
-          {data.map(d => )}
+          {data.map(d => (
+            <div className="dropdown"></div>
+          ))}
         </div>
       </div>
     </div>

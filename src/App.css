@@ -38,7 +38,16 @@ input {
 }
 
 @media only screen and (max-width: 600px){
+  input {
+    width: 90%
+  }
+
   .searchInner {
     flex-direction: column;
+    align-items: center;
+  }
+
+  .searchInner > button {
+    width: 80%;
   }
 }

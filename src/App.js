@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 
-const data = require('mockData.json')
+const data = require('./mockData.json')
 
 function App() {
   const [value, setValue] = useState('');

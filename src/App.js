@@ -4,6 +4,7 @@ import './App.css';
 const data = require('mockData.json')
 
 function App() {
+  const [value, setValue] = useState('');
   return (
     <div className="App">
       <h1>Search</h1>

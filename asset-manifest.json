@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/autocomplete_search/static/css/main.b9adf9af.css",
+    "main.js": "/autocomplete_search/static/js/main.fab5d714.js",
+    "index.html": "/autocomplete_search/index.html",
+    "main.b9adf9af.css.map": "/autocomplete_search/static/css/main.b9adf9af.css.map",
+    "main.fab5d714.js.map": "/autocomplete_search/static/js/main.fab5d714.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9adf9af.css",
+    "static/js/main.fab5d714.js"
+  ]
+}

@@ -11,7 +11,7 @@ function App() {
   };
 
   const handleClick = search => {
-    console.log('search ', search)
+    console.log('search ', search);
   };
 
   return (

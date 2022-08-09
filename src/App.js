@@ -31,7 +31,9 @@ function App() {
             const searchTerm = value.toLowerCase();
             const fullName = term.toLowerCase();
 
-            return searchTerm && fullName.startsWith(searchTerm);
+            return searchTerm && 
+                  fullName.startsWith(searchTerm) &&
+                  fullName !== searchTerm;
             })
             .map(d => (
             <div 

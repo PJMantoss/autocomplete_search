@@ -27,7 +27,13 @@ function App() {
           <button onClick={() => handleClick(value)}>Search</button>
         </div>
         <div className="dropdown">
-          {data.map(d => (
+          {data.filter(term => {
+            const searchTerm = value.toLowerCase();
+            const fullName = term.toLowerCase();
+
+            return searchTerm 
+            })
+            .map(d => (
             <div className="dropdownRow">
               {d.full_name}
             </div>

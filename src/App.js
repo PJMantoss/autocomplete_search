@@ -37,6 +37,7 @@ function App() {
                 fullName.startsWith(searchTerm) &&
                 fullName !== searchTerm)
             })
+            .slice(0,12)
             .map(d => (
             <div 
               key={d.full_name}

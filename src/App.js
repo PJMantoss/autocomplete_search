@@ -24,6 +24,7 @@ function App() {
             type="text" 
             value={value}
             onChange={handleChange}
+            placeholder="type"
           />
           <button onClick={() => handleClick(value)}>Search</button>
         </div>

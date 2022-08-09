@@ -1,5 +1,5 @@
 {
-  "name": "react_filter_search",
+  "name": "autocomplete_search",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

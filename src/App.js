@@ -32,9 +32,10 @@ function App() {
             const searchTerm = value.toLowerCase();
             const fullName = term.full_name.toLowerCase();
 
-            return (searchTerm && 
-                  fullName.startsWith(searchTerm) &&
-                  fullName !== searchTerm;)
+            return (
+                searchTerm && 
+                fullName.startsWith(searchTerm) &&
+                fullName !== searchTerm)
             })
             .map(d => (
             <div 

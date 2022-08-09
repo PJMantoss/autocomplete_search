@@ -26,6 +26,7 @@ function App() {
           />
           <button onClick={() => handleClick(value)}>Search</button>
         </div>
+        <div className="dropdown"></div>
       </div>
     </div>
   );

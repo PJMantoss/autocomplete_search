@@ -31,7 +31,7 @@ function App() {
             const searchTerm = value.toLowerCase();
             const fullName = term.toLowerCase();
 
-            return searchTerm && startsWith();
+            return searchTerm && startsWith(searchTerm);
             })
             .map(d => (
             <div className="dropdownRow">

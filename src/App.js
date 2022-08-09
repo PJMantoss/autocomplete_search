@@ -34,7 +34,7 @@ function App() {
             return searchTerm && fullName.startsWith(searchTerm);
             })
             .map(d => (
-            <div onClick={() => handleClick(term)} className="dropdownRow">
+            <div onClick={() => handleClick(d)} className="dropdownRow">
               {d.full_name}
             </div>
           ))}

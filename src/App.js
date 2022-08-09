@@ -28,7 +28,9 @@ function App() {
         </div>
         <div className="dropdown">
           {data.map(d => (
-            <div className="dropdownRow"></div>
+            <div className="dropdownRow">
+              {d.full_name}
+            </div>
           ))}
         </div>
       </div>

@@ -10,6 +10,8 @@ function App() {
     setValue(e.target.value)
   };
 
+  const handleClick = search => {};
+
   return (
     <div className="App">
       <h1>Search</h1>
@@ -20,6 +22,7 @@ function App() {
             value={value}
             onChange={handleChange}
           />
+          <button onClick={handleClick}></button>
         </div>
       </div>
     </div>

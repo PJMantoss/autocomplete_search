@@ -39,7 +39,7 @@ function App() {
             })
             .map(d => (
             <div 
-              onClick={() => handleClick(d)} 
+              onClick={() => handleClick(d.full_name)} 
               className="dropdownRow"
             >
               {d.full_name}
